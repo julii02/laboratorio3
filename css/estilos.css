@@ -464,7 +464,6 @@ footer {
 		display: none;
 	}
 
-
 	.seccionmomentos h1{
 		font-size: 25px;
 	}
@@ -541,6 +540,11 @@ footer {
 	.form-container {
 	margin-top: 30%;
 	}
+
+	.fotopelea{
+		margin-bottom: 10px;
+	}
+
 	footer{
 		font-size: 15px;
 	}
