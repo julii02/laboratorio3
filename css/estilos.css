@@ -548,4 +548,9 @@ footer {
 	footer{
 		font-size: 15px;
 	}
+	.bodycontacto{
+		background-image: url(../fotosprincipal/fondocobra.jpg);
+		background-size: cover; 
+ 		background-position: center center;
+	}
 }
