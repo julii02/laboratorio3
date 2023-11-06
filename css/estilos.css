@@ -1,0 +1,547 @@
+body{
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	background-image: url(../fotosprincipal/1271132.jpg);
+	background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+	background-size:auto;
+	color: white;
+	box-sizing: border-box;
+
+}
+
+strong{
+	color: #ececb5;
+}
+.bodycontacto{
+	background-image: url(../fotosprincipal/fondocobra.jpg);
+	background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+header {
+    background-color:#333; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding:10px ;
+}
+
+.logoimg {
+    width: 170px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 25px; 
+    position: relative;
+}
+
+nav ul li:hover .submenu {
+    display: block; 
+}
+
+/* Estilo para el submenú de Dojos */
+nav ul .submenu {
+	background-color:#333;
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: -40px; 
+    padding: 10px;
+    width: 138px;
+    font-size: 16px;
+}
+
+nav ul .submenu li {
+    margin: 10px 0; 
+
+}
+
+nav a {
+	font-size: 23px;
+    color: white; 
+    text-decoration: none;
+}
+
+nav ul a:hover{
+	color: #ececb5;
+}
+
+header .logo img{
+	margin-left: 10px;
+	transition: all 0.3s;
+}
+
+header .logo img:hover{
+	transform: scale(1.2);
+}
+
+.seccion1 h1{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 45px;
+}
+.seccion2 h2{
+	margin-bottom: 10px;
+}
+
+.seccion2 div{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.seccion1 img {
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 15px;
+
+}
+
+.seccion2 div {
+	margin-left: 5px;
+}
+
+/* FORMULARIO */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.form-container {
+	margin-top: 7%;
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+#mensaje{
+	resize: none;
+}
+.form-input {
+	color: white;
+	background: none;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.seccionpersonajes {
+    display: flex;
+    justify-content: space-around;
+}
+.seccionpersonajes p{
+	line-height: 1.4;
+}
+
+.articulospersonajes {
+    text-align: center;
+}
+
+.personajestitulo{
+	text-align: center;
+}
+.seccionpersonajes h2 {
+	margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.fotomiguel{
+	padding: 10px;
+    margin: 15px;
+    background-color: none;
+    height: 520px;
+}
+.fotomiguel p{
+	padding: 0 5px;
+	margin: 0 12px;
+}
+.fotomiguel h2{
+	margin-bottom: 10px;
+	text-decoration: underline; 
+}
+.galeria {
+	width: 100%;
+	display: flex;
+}
+.galeria div{
+	border: 5px solid white;
+	width: 35%;
+	height: 450px;
+	background-color: black;
+	text-align: center;
+	margin: 0 auto;
+}
+.galeria img{
+	width: 100%;
+	height: 91%;
+}
+
+.galeria p{
+	color: #6f6f6f;
+}
+
+.seccion1miyagi {
+	margin-bottom: 10px;
+}
+.seccion1miyagi h1{
+	text-align: center;
+}
+.seccion1miyagi p {
+	font-size: 20px;
+	margin-left: 5px;
+	margin: 0 10%;
+}
+
+.seccion2miyagi div{
+	margin: 0 10%;
+}
+.seccion2miyagi div h2{
+	margin-bottom: 10px;
+}
+.seccion2miyagi p{
+	font-size: 20px;
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+
+.seccion3miyagi{
+	display: flex;
+	justify-content: space-around;
+	margin: 0.9%;
+}
+.contenedorlogo{
+	text-align: center;
+}
+
+
+
+.seccion2miyagi h2{
+	margin-left: 5px;
+	text-decoration: underline;
+}
+.logomiyagi{
+	width: 300px;
+	height: 300px;
+}
+.sec2dojos{
+	display: flex;
+	justify-content: space-around;
+}
+.sec2dojos img:hover{
+	transform: scale(1.1);
+}
+.sec1dojos h1{
+	text-align: center;
+	text-decoration: underline;
+}
+.sec1dojos p{
+	margin: 0 10%;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.sec2dojos{
+	margin-top: 10px;
+}
+.sec2dojos img{
+	margin:0 5px;	
+	border: 2px solid white;
+	width: 550px;
+	height: 390px;
+	transition: all 0.2s;
+}
+.sec2dojos div h2{
+	text-align: center;
+	text-decoration: underline;
+}
+footer {
+	font-size: 18px;
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
+	footer a{
+        color: #fff; 
+    }
+    footer a i{
+        padding: 3px;
+    }
+
+
+/* Estilo específico para el footer en la página de contacto */
+.bodyespecial footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+}
+
+
+
+
+.fotopelea img{
+	width: 700px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	border-radius: 10px;
+}
+
+.titulomejores{
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+
+.parrafo1mejores{
+  display: flex;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.parrafo1mejores p {
+	font-size: 18px;
+}
+
+.subtitulo2mejores{
+	margin-top: 7px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+
+
+.seccion2 div p{
+	font-size: 18px;
+}
+
+.seccion2 h2 {
+	text-align: center;
+}
+
+.titulopersonajes{
+	text-align: center;
+}
+
+.separador{
+	margin-top: 25px;
+	height: 100px;
+	background: black;
+	margin-bottom: 25px;
+}
+
+.separador h3{
+	font-family: algeria;
+	font-size: 50px;
+	padding-top: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.imagenprinci{
+	margin-bottom: 3px;
+}
+.imagenprinci img{
+	display: flex;
+	margin: 0 auto;
+	width: 1280px;
+	height: 720px;
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: #fff;
+	float: right;
+	display: none;
+}
+#check{
+	display: none;
+}
+
+.titulo-criticas{
+	text-align: center;
+}
+
+.bodycontacto footer{
+
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
+@media(max-width: 576px){
+	.checkbtn{
+		display: block;
+	}
+
+
+	ul{
+		position: fixed;
+		height:100vh;
+		width: 100%;
+		background: #333;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+
+	nav ul{
+		display: block;
+	}
+
+	.submenu li {
+  		display: none;
+	}
+
+	nav ul li a{
+		font-size: 20px;
+		margin-left: 7%;
+	}
+
+	li a:hover, li a.active{
+		background: none;
+	}
+
+	nav ul li{
+		padding: 25px 0;
+
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+	
+	img{
+		max-width: 100%;
+	}
+
+	.fotoprc img{
+		max-width: 100%;
+		height: auto;
+
+	}
+	.separador {
+		display: none;
+	}
+	.imagenprinci{
+		display: none;
+	}
+
+
+	.seccionmomentos h1{
+		font-size: 25px;
+	}
+	.seccionmomentos img{
+		margin: 0 auto;
+		max-width: 90%;
+	}
+	.sec2dojos{
+		display: block;
+	}
+	.sec2dojos img{
+		max-width: 100%;
+	}
+	
+	.seccionpersonajes{
+		display: block;
+		min-height: 400px;
+	}
+
+	.galeria div img{
+		max-width: 100%;
+	}
+
+	.seccion1miyagi h1{
+		text-align:center;
+	}
+	.seccion2miyagi h2{
+		text-align: center;
+	}
+
+	.seccion3miyagi{
+		display: block;
+	}
+
+	.seccion2cobra h2{
+		text-align: center;
+	}
+	.seccion3cobra{
+		display: block;
+	}
+
+	.fotomiguel,
+	.fotodaniel,
+	.fotojhonny{
+		padding: 10px;
+    	margin: 10px;
+    	background-color: none;
+    	height: auto;
+	}
+	.parrafo1mejores{
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+		text-align: center;
+	}
+	.bodyespecial footer {
+		position: static;
+   		bottom: 0;
+    	width: 100%; 
+	}
+	.bodycontacto footer{
+		position: none;
+		bottom: 0;
+		width: 100%;
+	}
+	.sec2dojos img{
+		margin: 0 0;
+	}
+	.galeria div{
+		width: 100%;
+		height: 300px;
+		margin: 0 2px;
+	}
+	.form-container {
+	margin-top: 30%;
+	}
+	footer{
+		font-size: 15px;
+	}
+}
