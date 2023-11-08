@@ -169,7 +169,6 @@ header .logo img:hover{
 .articulospersonajes {
     text-align: center;
 }
-
 .personajestitulo{
 	text-align: center;
 }
@@ -283,6 +282,7 @@ header .logo img:hover{
 	transition: all 0.2s;
 }
 .sec2dojos div h2{
+	margin-bottom: 15px;
 	text-align: center;
 	text-decoration: underline;
 }
@@ -304,12 +304,7 @@ footer {
     }
 
 
-/* Estilo específico para el footer en la página de contacto */
-.bodyespecial footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%; 
-}
+
 
 
 
@@ -399,12 +394,7 @@ footer {
 	text-align: center;
 }
 
-.bodycontacto footer{
 
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-	}
 
 @media(max-width: 576px){
 	.checkbtn{
